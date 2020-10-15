@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.hide{
+  display: none
+}
+
+/*Log-in page left-side*/
+.side-A{
+  background: #fad390;
+  width: 50%;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+}
+.side-B{
+  background: #2C3A47;
+  width: 50%;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+}
+.planet{
+  position: absolute; 
+  bottom: 0;
+  left: 0;
+  height: relative;
+  width: 72%;
+}
+.quote{
+  font-family: 'Inconsolata', monospace;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  font-size: 1.5vw;
+}
+
+/*Log-in page right-side*/
+.side-B-inner{
+  position: absolute;
+  top: 30%;
+  right: 35%;
+}
+.title{
+  font-family: 'Manrope', sans-serif;
+  font-size: 3vw;
+  color: rgba(255, 255, 255, 0.3);
+}
+.title.click:hover{
+  cursor: pointer;
+  color: white;
+}
+.title.active{
+  color: rgba(255, 255, 255, 1);
+  border-bottom: 1px solid #fad390;
+}
+.input-side-B{
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #fad390;
+  padding: 4px;
+  background: #2C3A47;
+  color: white;
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.2vw;
+  width: 25vw;
+}
+.header-side-B{
+  font-family: 'Manrope', sans-serif;
+  color: white;
+  font-size: 1.5vw;
+}
+.side-B-submit-button{
+  outline: none;
+  border: 1px solid #fad390;
+  background: #2C3A47;
+  border-radius: 30px;
+  padding: 10px 25px 10px 25px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.5vw;
+  color: white;
+}
+.side-B-submit-button:hover{
+  color: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+.forgot-password{
+  font-family: 'Manrope', sans-serif;
+  color: white;
+  font-size: 1vw;
+}
+.forgot-password:hover{
+  font-family: 'Manrope', sans-serif;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 1vw;
+}
+.google-icon{
+  width: 3vw;
+  height: relative;
+}
+.google-icon:hover{
+  cursor: pointer;
+}
