@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>intellego</title>
+    <link href="login-signup.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class='side-A'>
+      <img src='static/mug.png' height="45" width="36">
+      <img src='static/planet.png' class='planet'>
+      <p class='quote'>The secret to getting ahead is getting started.</p>
+    </div>
+    <div class='side-B'>
+      <div class='side-B-inner'>
+        <div class='title-container'>
+          <span class='title active click' id='log-in'>Log In </span>
+          <span class='title'> or </span>
+          <span class='title click' id='sign-up'> Sign Up</span>
+          <br>
+          <br>
+        </div>
+        <div class='log-in-container' id='log-in-container'>
+          <img src='static/google.png' class='google-icon' id='google-icon'>
+          <br>
+          <br>
+          <p class='header-side-B'>Email address</p>
+          <input class='input-side-B' type='text' placeholder='Enter your email address' id='email'></input>
+          <br>
+          <br>
+          <p class='header-side-B'>Password</p>
+          <input class='input-side-B' type='password' placeholder='Enter your password' id=;'password'></input>
+          <br>
+          <br>
+          <div><a href='#' class='forgot-password'>Forgot password?</a></div>
+          <br>
+          <br>
+          <button class='side-B-submit-button' id='log-in-button'>Log In</button>
+        </div>
+        <div class='sign-up-container hide' id='sign-up-container'>
+          <img src='static/google.png' class='google-icon' id='google-icon'>
+          <br>
+          <br>
+          <p class='header-side-B'>Name</p>
+          <input class='input-side-B' type='text' placeholder='Enter your name' id='name';></input>
+          <br>
+          <br>
+          <p class='header-side-B'>Email address</p>
+          <input class='input-side-B' type='text' placeholder='Enter your email address' id='email'></input>
+          <br>
+          <br>
+          <p class='header-side-B'>Password</p>
+          <input class='input-side-B' type='password' placeholder='Enter your password' id='password'></input>
+          <br>
+          <br>
+          <p class='header-side-B'>Confirmed password</p>
+          <input class='input-side-B' type='password' placeholder='Enter your confirmed password' id='confirm-password'></input>
+          <br>
+          <br>
+          <button class='side-B-submit-button' id='sign-up-button'>Sign Up</button>
+        </div>
+      </div>
+    </div>
+    <script src="login-signup.js"></script>
+  </body>
+</html>
